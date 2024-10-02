@@ -111,7 +111,6 @@
 
 .why-me {
    padding: var(--size-150) 0;
-   /* padding: 100px var(--size-150) 0; */
    /* border: 2px solid red; */
 }
 
@@ -360,8 +359,9 @@ footer .footer-top {
    /* border: 2px solid white; */
 }
 
-.footer .footer-column {
+.footer-column {
    justify-self: center;
+   max-width: 250px;
 }
 
 .footer-top h5 {
